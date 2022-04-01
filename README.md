@@ -2,12 +2,14 @@
 
 *AKA a [Ctrl/Cmd-K Menu](https://uiw.tf/cmdk) or a [Command Palette](https://tailwindui.com/components/application-ui/navigation/command-palettes)*
 
-![Example of Catche instant search](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" alt="Example of Catche instant search" width="460" />
+</p>
 
 **[Catche](https://try.catche.co/) provides a low-code way to add instant search to your website in two steps!**
 
 1. Go to https://try.catche.co and enter your website URL
-2. Add the provided code snippet to your website's <head>
+2. Add the provided code snippet to your website's `<head>`
 
 ---
 
@@ -33,7 +35,7 @@ Note - the `index.html` files in the tutorial folders cannot be opened as-is, du
 
 See [tutorials/theme](https://github.com/CatcheSearch/catche-search-widget/tree/main/tutorials/theme) for relevant files.
 
-You can theme the widget via the `catche-css` attribute in the <script> element, which should take the path to the .css file.
+You can theme the widget via the `catche-css` attribute in the `<script>` element, which should take the path to the .css file.
 
 ```HTML
 <script catche-css="PATH/TO/CSS" type="module" crossorigin src="PATH/TO/WIDGET/index.js"></script>
@@ -45,7 +47,7 @@ See [tutorials/theme/dark.css](https://github.com/CatcheSearch/catche-search-wid
 
 See [tutorials/selfhost](https://github.com/CatcheSearch/catche-search-widget/tree/main/tutorials/selfhost) for relevant files.
 
-You can use your own data saved in a .json file, via the `catche-data` attribute in the <script> element, which should take the path to the .json file.
+You can use your own data saved in a .json file, via the `catche-data` attribute in the `<script>` element, which should take the path to the .json file.
 
 ```HTML
 <script catche-data="PATH/TO/JSON" type="module" crossorigin src="PATH/TO/WIDGET/index.js"></script>
