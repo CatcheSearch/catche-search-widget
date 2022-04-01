@@ -15,7 +15,7 @@
 
 This repo contains the open-source code for the client-side widget.
 
-For those who are interested in theming their widget or using self-hosted data, check out the Tutorials section below.
+For those who are interested in theming their widget or using self-hosted data, check out the [Tutorials](#tutorials) section below.
 
 Contributions welcome!
 
