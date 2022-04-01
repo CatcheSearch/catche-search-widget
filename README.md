@@ -2,6 +2,8 @@
 
 *AKA a [Ctrl/Cmd-K Menu](https://uiw.tf/cmdk) or a [Command Palette](https://tailwindui.com/components/application-ui/navigation/command-palettes)*
 
+![Example of Catche instant search](assets/demo.gif)
+
 **[Catche](https://try.catche.co/) provides a low-code way to add instant search to your website in two steps!**
 
 1. Go to https://try.catche.co and enter your website URL
