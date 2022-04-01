@@ -1,0 +1,71 @@
+/* Icon */
+
+#catche-icon {
+  color: #818784;
+  background: #2a2b2e;
+  border-color: #818784;
+}
+
+/* Menu */
+
+/* Search bar */
+#catche-menu {
+  background: #2a2b2e;
+  color: #c4c4c4;
+}
+
+/* Search bar search icon */
+#catche-menu svg {
+  color: #818784;
+}
+
+/* Search bar placeholder text */
+#catche-menu ::placeholder {
+  color: #818784;
+}
+
+/* Search menu results */
+#catche-menu a {
+  background: #2a2b2e;
+  color: #c4c4c4;
+}
+
+/* Search menu selected result */
+#catche-menu a:hover,
+#catche-menu a.selected {
+  background: #37373c;
+}
+
+/* Search menu borders */
+#catche-menu div {
+  border-color: #535353;
+}
+#catche-menu a {
+  border-color: #2a2b2e;
+}
+
+/* Keyboard shortcut hint */
+#catche-shortcut {
+  color: #535353;
+  border-color: #535353;
+}
+
+/* Background */
+
+/* Background when search is opened */
+#catche-background.show {
+  background: #000000;
+  opacity: 50%;
+}
+
+/* Branding */
+
+/* Catche branding "Powered by" */
+#catche-branding {
+  color: #818784;
+}
+
+/* Catche branding "Catche" */
+#catche-branding a {
+  color: #c4c4c4;
+}
