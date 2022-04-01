@@ -3,7 +3,7 @@
 *AKA a [Ctrl/Cmd-K Menu](https://uiw.tf/cmdk) or a [Command Palette](https://tailwindui.com/components/application-ui/navigation/command-palettes)*
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Example of Catche instant search" width="460" />
+  <img src="assets/demo.gif" alt="Example of Catche instant search" />
 </p>
 
 **[Catche](https://try.catche.co/) provides a low-code way to add instant search to your website in two steps!**
