@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === 'development') {
     // Add CSS
     const styleEl = document.createElement('link')
     styleEl.setAttribute('rel', 'stylesheet')
-    styleEl.setAttribute('href', 'https://cdn.jsdelivr.net/gh/greentfrapp/probable-robot@0.0.10/index.css')
+    styleEl.setAttribute('href', 'https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/index.css')
     shadowDOM.appendChild(styleEl)
     if (cssPath) {
       const customStyleEl = document.createElement('link')

@@ -35,7 +35,8 @@ export function highlightMatch(query:string, candidate:string, maxTokensBefore:n
   }
   const start = result[0].match.index
   const end = result[0].match.index + result[0].match.length
-  const snippet = candidate.slice(start, end)
+  let snippet = candidate.slice(start, end)
+  if (!snippet.match(/([A-Z|a-z])$/)) snippet = snippet.slice(0, -1)
   const snippetRe = new RegExp(`((.|\n)*)(\s|^|[^(A-Z|a-z|')])(.*?${escapeRegExp(snippet)})((.|\n)*)`, 'gi')
   function replacer(match:string, p1:string, p2:string, p3:string, p4:string, p5:string) {
     if (maxTokensBefore < 0 && maxTokensAfter < 0) {
