@@ -10,6 +10,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { escapeHtml } from "@vue/shared"
 import Minisearch, { SearchResult } from 'minisearch'
 import { initSearch, highlightMatch } from '../utils/search'
 import SearchBox from './SearchBox.vue'
@@ -108,8 +109,8 @@ export default defineComponent({
         .map((result:SearchResult) => {
           return {
             url: result.url || '',
-            title: highlightMatch(this.query, result.title).highlight || '',
-            text: highlightMatch(this.query, result.text, 3, 10).highlight || '',
+            title: highlightMatch(this.query, escapeHtml(result.title)).highlight || '',
+            text: highlightMatch(this.query, escapeHtml(result.text), 3, 10).highlight || '',
           }
         })
       this.updateDebounce(performance.now() - startSearchTime)
